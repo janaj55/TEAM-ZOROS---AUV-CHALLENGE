@@ -190,7 +190,7 @@ while cap.isOpened():
  
   # Threshold the HSV image to get the black line
 
-	blackbox= cv2.inRange(hsv, (46, 113, 162), (136, 197, 255))#@
+	blackbox= cv2.inRange(hsv, (0,0,0), (60,60,60))
 	kernel = np.ones((3,3), np.uint8)
 	blackbox = cv2.erode(blackbox, kernel, iterations=erode_iter)
 	blackbox = cv2.dilate(blackbox, kernel, iterations=dilate_iter)	
