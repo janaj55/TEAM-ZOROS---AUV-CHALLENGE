@@ -2,7 +2,7 @@
 #AUV-230283
 
 # We used *Blue* color box instead of *Red* due to availablity 
-
+# all colour tuning are done underwater and may very upon different environment conditions
 # we use dronekit library
 
 # Notes :
